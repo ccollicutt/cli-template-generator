@@ -14,7 +14,7 @@ except ImportError:
 try:
     import argparse
 except ImportError:
-    print >>sys.stderr, 'ERROR:requires argparse'
+    print >>sys.stderr, 'ERROR: requires argparse'
     sys.exit(1)
 
 CONFIG_FILE = "./skeleton.conf"
