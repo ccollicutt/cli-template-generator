@@ -8,13 +8,13 @@ import ConfigParser
 try:
     from Cheetah.Template import Template
 except ImportError:
-    print >>sys.stderr, 'ERROR: kicker requires Cheetah templates'
+    print >>sys.stderr, 'ERROR: requires Cheetah templates'
     sys.exit(1)
 
 try:
     import argparse
 except ImportError:
-    print >>sys.stderr, 'ERROR: kicker requires argparse'
+    print >>sys.stderr, 'ERROR:requires argparse'
     sys.exit(1)
 
 CONFIG_FILE = "./skeleton.conf"
